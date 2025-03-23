@@ -10,3 +10,5 @@ Prerequisites
 - Pywal16
 - Wofi
 - fastfetch
+- Hypridle
+- Hyprlock
