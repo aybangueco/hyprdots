@@ -18,7 +18,8 @@
         "temperature",
         "battery",
         "battery#bat2",
-        "network",
+	"tray",
+        //"network",
         "pulseaudio",
         "custom/power"
     ],

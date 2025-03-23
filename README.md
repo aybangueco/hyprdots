@@ -12,3 +12,4 @@ Prerequisites
 - fastfetch
 - Hypridle
 - Hyprlock
+- network-manager-applet
