@@ -1,0 +1,44 @@
+@import ".cache/wal/colors-waybar.css";
+
+* {
+    font-family: "Hack", monospace;
+}
+
+window {
+    background-color: @background;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    background-color: @color1;
+    color: white;
+}
+
+#inner-box {
+    background-color: @background;
+}
+
+#outer-box {
+    margin: 2px;
+    padding: 10px;
+    background-color: @background;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    padding: 4px;
+    color: white;
+}
+
+#entry:selected {
+    background-color: @color1;
+}
+
+#text:selected {
+    background: transparent;
+}
