@@ -5,6 +5,9 @@
     "tooltip-format": "btw"
   },
   "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "*": 5
+    },
     "disable-scroll": true,
     "all-outputs": true,
     "warp-on-scroll": false,
@@ -43,7 +46,7 @@
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}"
   },
   "cpu": {
     "format": "  {usage}%",
