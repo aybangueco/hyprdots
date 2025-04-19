@@ -1,6 +1,6 @@
 * {
-  font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial,
-    sans-serif;
+  font-family: "JetBrainsMono";
+  font-weight: bold;
   font-size: 12px;
   transition: background-color 0.3s ease-out;
 }
@@ -8,17 +8,14 @@
 @import "../../.cache/wal/colors-waybar.css";
 
 window#waybar {
-  /* background: rgba(26, 27, 38, 0.75); */
   background: transparent;
   color: @color7;
-  font-family: SpaceMono Nerd Font, feather;
   transition: background-color 0.5s;
 }
 
 .modules-left,
 /* .modules-center, */
 .modules-right {
-  /* background: rgba(0, 0, 8, .7); */
   background-color: @background;
   margin: 5px 10px;
   padding: 5px 5px;
@@ -80,17 +77,17 @@ window#waybar {
 
 #workspaces button {
   background: transparent;
-  font-family: SpaceMono Nerd Font, feather;
   font-weight: 900;
   font-size: 13pt;
   color: @color7;
   border: none;
   transition: background-color 0.5s;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 #workspaces button.active {
   background-color: @color2;
+  color: @background;
 }
 
 #workspaces button:hover {
@@ -105,7 +102,7 @@ window#waybar {
   transition: color 0.5s;
 }
 #custom-arch:hover {
-  color: @color1;
+  color: @color2;
 }
 
 #custom-power {
