@@ -21,37 +21,29 @@
     },
     "break",
     {
-      "type": "os",
-      "keyColor": "yellow"
+      "type": "os"
     },
     {
-      "type": "kernel",
-      "keyColor": "yellow"
+      "type": "kernel"
     },
     {
       "type": "packages",
-      "format": "{} (pacman)",
-      "keyColor": "yellow"
+      "format": "{} (pacman)"
     },
     {
-      "type": "shell",
-      "keyColor": "yellow"
+      "type": "shell"
     },
     {
-      "type": "terminal",
-      "keyColor": "yellow"
+      "type": "terminal"
     },
     {
-      "type": "wm",
-      "keyColor": "yellow"
+      "type": "wm"
     },
     {
-      "type": "uptime",
-      "keyColor": "yellow"
+      "type": "uptime"
     },
     {
-      "type": "media",
-      "keyColor": "yellow"
+      "type": "media"
     },
     "break",
     "colors",

@@ -1,8 +1,7 @@
 * {
-  font-family: "JetBrainsMono";
+  font-family: "Roboto Mono";
   font-weight: bold;
-  font-size: 12px;
-  transition: background-color 0.3s ease-out;
+  font-size: 13px;
 }
 
 @import "../../.cache/wal/colors-waybar.css";
@@ -10,23 +9,17 @@
 window#waybar {
   background: transparent;
   color: @color7;
-  transition: background-color 0.5s;
 }
 
 .modules-left,
-/* .modules-center, */
+.modules-center,
 .modules-right {
   background-color: @background;
   margin: 5px 10px;
   padding: 5px 5px;
   border-radius: 15px;
-  border: 2px solid @color7;
-}
-.modules-left {
-  padding: 0;
-}
-.modules-center {
-  padding: 5px 5px;
+  border: 3px solid @color2;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 #clock,
@@ -51,7 +44,7 @@ window#waybar {
 
 #clock {
   background-color: @background;
-  border: 2px solid @color7;
+  font-weight: 700;
 }
 
 #clock:hover,
@@ -71,8 +64,10 @@ window#waybar {
 #scratchpad:hover,
 #power-profiles-daemon:hover,
 #mpd:hover {
-  /* background: rgba(26, 27, 38, 0.9); */
   background-color: @color2;
+  color: @background;
+  border-radius: 12px;
+  transition: all 0.3s ease;
 }
 
 #workspaces button {
@@ -81,17 +76,24 @@ window#waybar {
   font-size: 13pt;
   color: @color7;
   border: none;
-  transition: background-color 0.5s;
   border-radius: 12px;
+  padding: 0 5px;
+  margin: 0 2px;
 }
 
 #workspaces button.active {
   background-color: @color2;
   color: @background;
+  padding: 0 12px;
 }
 
 #workspaces button:hover {
-  /* background: #11111b; */
+  background: transparent;
+  box-shadow: none;
+}
+
+#workspaces button.active:hover {
+  background-color: @color2;
   box-shadow: none;
 }
 
@@ -99,14 +101,49 @@ window#waybar {
   margin-left: 5px;
   padding: 0 10px;
   font-size: 25px;
-  transition: color 0.5s;
 }
+
 #custom-arch:hover {
   color: @color2;
+  text-shadow: 0 0 5px alpha(@color2, 0.5);
 }
 
 #custom-power {
   background-color: transparent;
   border-radius: 14px;
   padding: 6px;
+  margin-right: 5px;
+}
+
+#custom-power:hover {
+  color: #f38ba8;
+}
+
+#battery.warning {
+  color: #f9e2af;
+}
+
+#battery.critical {
+  color: #f38ba8;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  to {
+    color: @color7;
+  }
+}
+
+#tray {
+  padding: 0 8px;
+}
+
+tooltip {
+  background: @background;
+  border: 2px solid @color7;
+  border-radius: 10px;
+}
+
+tooltip label {
+  color: @color7;
 }
