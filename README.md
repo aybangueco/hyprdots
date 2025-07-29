@@ -4,23 +4,33 @@ ps: i don't use vim btw
 
 # Prerequisites
 
-- arch Linux (btw)
-- hyprland
-- waybar
-- wlogout
-- btop
+- arch linux (pls only use arch and other arch based distro)
+- yay (aur helper)
+- fastfetch
 - htop
-- kitty (terminal)
+- btop
+- waybar
+- kitty
 - thunar
 - python-pywal16
 - python-pywalfox
 - wofi
-- fastfetch
 - hypridle
 - hyprlock
+- hyprshot
+- swww
+- playerctl
+- nwg-look
+- brightness-ctl
+- waypaper
+- hyprpolkitagent
+- orage
+- swaync
 - network-manager-applet
 - blueman-applet
-- yay (aur helper)
+- ttf-jetbrains-mono-nerd
+- ttf-roboto-mono-nerd
+- ttf-fira-code
 
 # Get started
 
