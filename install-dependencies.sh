@@ -17,6 +17,15 @@ packages=(
   wofi
   hypridle
   hyprlock
+  hyprshot
+  swww
+  playerctl
+  nwg-look
+  brightness-ctl
+  waypaper
+  hyprpolkitagent
+  orage
+  swaync
   network-manager-applet
   blueman-applet
   ttf-jetbrains-mono-nerd
