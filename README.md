@@ -22,7 +22,6 @@ ps: i don't use vim btw
 - playerctl
 - nwg-look
 - brightness-ctl
-- waypaper
 - hyprpolkitagent
 - orage
 - swaync

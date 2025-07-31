@@ -18,11 +18,10 @@ packages=(
   hypridle
   hyprlock
   hyprshot
-  swww
+  hyprpaper
   playerctl
   nwg-look
   brightness-ctl
-  waypaper
   hyprpolkitagent
   orage
   swaync
