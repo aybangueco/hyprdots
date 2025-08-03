@@ -1,0 +1,37 @@
+[
+  {
+    "source": "fastfetch",
+    "target": "~/.config/fastfetch",
+    "isDirectory": true
+  },
+  {
+    "source": "hypr",
+    "target": "~/.config/hypr",
+    "isDirectory": true
+  },
+  {
+    "source": "kitty",
+    "target": "~/.config/kitty",
+    "isDirectory": true
+  },
+  {
+    "source": "wal",
+    "target": "~/.config/wal",
+    "isDirectory": true
+  },
+  {
+    "source": "waybar",
+    "target": "~/.config/waybar",
+    "isDirectory": true
+  },
+  {
+    "source": "wlogout",
+    "target": "~/.config/wlogout",
+    "isDirectory": true
+  },
+  {
+    "source": "wofi",
+    "target": "~/.config/wofi",
+    "isDirectory": true
+  }
+]
