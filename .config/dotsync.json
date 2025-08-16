@@ -1,37 +1,37 @@
 [
   {
     "source": "fastfetch",
-    "target": "~/.config/fastfetch",
+    "target": "~/.config",
     "isDirectory": true
   },
   {
     "source": "hypr",
-    "target": "~/.config/hypr",
+    "target": "~/.config",
     "isDirectory": true
   },
   {
     "source": "kitty",
-    "target": "~/.config/kitty",
+    "target": "~/.config",
     "isDirectory": true
   },
   {
     "source": "wal",
-    "target": "~/.config/wal",
+    "target": "~/.config",
     "isDirectory": true
   },
   {
     "source": "waybar",
-    "target": "~/.config/waybar",
+    "target": "~/.config",
     "isDirectory": true
   },
   {
     "source": "wlogout",
-    "target": "~/.config/wlogout",
+    "target": "~/.config",
     "isDirectory": true
   },
   {
     "source": "wofi",
-    "target": "~/.config/wofi",
+    "target": "~/.config",
     "isDirectory": true
   }
 ]
