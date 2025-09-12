@@ -21,7 +21,7 @@ packages=(
   hyprpaper
   playerctl
   nwg-look
-  brightness-ctl
+  brightnessctl
   hyprpolkitagent
   orage
   swaync
@@ -30,6 +30,9 @@ packages=(
   ttf-jetbrains-mono-nerd
   ttf-roboto-mono-nerd
   ttf-fira-code
+  gvfs
+  lazygit
+  neovim
 )
 
 yay -S --needed --noconfirm "${packages[@]}"
